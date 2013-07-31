@@ -1,0 +1,58 @@
+Starting audit...
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookCategory.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookCategory.java:9:31: '{' is not preceded with whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookCategory.java:20:11: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookDB.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookDB.java:5: Missing a Javadoc comment.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookDB.java:7:5: Redundant 'public' modifier.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookDB.java:9:5: Redundant 'public' modifier.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookDB.java:11:5: Redundant 'public' modifier.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookDB.java:13:5: Redundant 'public' modifier.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookDB.java:15:5: Redundant 'public' modifier.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookImpl.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookImpl.java:6: Missing a Javadoc comment.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookItem.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookItem.java:9: Line has trailing spaces.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradebookItem.java:16: Line is longer than 80 characters (found 81).
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:4: Line has trailing spaces.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:11: Line has trailing spaces.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:19:12: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:19:22: '90' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:21:18: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:21:27: '90' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:21:42: '80' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:23:18: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:23:27: '80' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:23:42: '70' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:25:19: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:25:28: '70' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:25:43: '60' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:27:18: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:27:27: '60' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:39:21: '/' is not preceded with whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Grading.java:39:22: '/' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingScheme.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingScheme.java:3: Missing a Javadoc comment.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingScheme.java:5:5: Redundant 'public' modifier.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingScheme.java:7:5: Redundant 'public' modifier.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:3: Missing a Javadoc comment.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:14:11: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:27: Line is longer than 80 characters (found 103).
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:35:11: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:35:30: '90' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:37:18: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:37:37: '80' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:39:18: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:39:37: '70' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:41:19: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:41:38: '60' is a magic number.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\GradingSchemeExample.java:43:18: 'if' is not followed by whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Section.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Section.java:3: Missing a Javadoc comment.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Section.java:3:37: '{' is not preceded with whitespace.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Student.java:0: File does not end with a newline.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Student.java:3: Missing a Javadoc comment.
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Student.java:16: Line is longer than 80 characters (found 85).
+C:\Users\Toshiba\Documents\GitHub\gradebook\src\main\java\gradebook\model\Student.java:21:11: 'if' is not followed by whitespace.
+Audit done.
