@@ -1,5 +1,13 @@
 package gradebook.model;
 
+/**
+ *Class to create a new Student object
+ *
+ *This class contains a way to calculate average
+ *score and letter
+ *@author Susan Roberts
+ */
+
 public class Student extends Grading implements GradingScheme {
 
     private String name;
@@ -13,17 +21,18 @@ public class Student extends Grading implements GradingScheme {
     public Student(String name) {
         this.name =  name;
         scores = new GradebookImpl<GradebookItem>();
-        gradingScheme = new GradingSchemeExample(new GradebookImpl<GradebookItem>());
+        gradingScheme = new GradingSchemeExample(new
+            GradebookImpl<GradebookItem>());
     }
 
     public boolean setScores(GradebookDB<GradebookItem> list) {
-        boolean added = false;
-        if(list.size() > 0) {
+        if (list.size() > 0) {
             scores = list;
             gradingScheme.addGradingItems(scores);
-            added = true;
+            return true;
+        } else {
+            return false;
         }
-        return added;
     }
 
     @Override
@@ -39,6 +48,4 @@ public class Student extends Grading implements GradingScheme {
     public String getName() {
         return name;
     }
-
-
 }

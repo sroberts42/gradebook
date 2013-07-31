@@ -2,16 +2,24 @@ package gradebook.model;
 
 import java.util.List;
 
+/**
+ *GradebookDB is the interface that defines the storage
+ *of objects in this project
+ *
+ *@author Susan Roberts
+ *@param <T>, abstract data type
+ */
+
 public interface GradebookDB<T> {
 
-    public void delete(T t);
+    void delete(T t);
 
-    public void add(T t);
+    void add(T t);
 
-    public T get(int index);
+    T get(int index);
 
-    public List<T> getAll();
+    List<T> getAll();
 
-    public int size();
+    int size();
 
 }

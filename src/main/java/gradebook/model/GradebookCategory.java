@@ -6,6 +6,7 @@ package gradebook.model;
  *This file has getters and setters for each part of GradebookCategory.
  *@author Susan Roberts
  */
+
 public class GradebookCategory {
     private String name;
     private double weight;
@@ -17,22 +18,12 @@ public class GradebookCategory {
     }
 
     public boolean setItemList(GradebookDB<GradebookItem> items) {
-        if(items.size() > 0) {
+        if (items.size() > 0) {
             this.items = items;
             return true;
         } else {
             return false;
         }
-
-    }
-
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public double getWeight() {
@@ -49,5 +40,18 @@ public class GradebookCategory {
 
     public String getName() {
         return name;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public boolean setName(String name) {
+        if (name != null) {
+            this.name = name;
+            return true;
+        } else {
+            return false;
+        }
     }
 }

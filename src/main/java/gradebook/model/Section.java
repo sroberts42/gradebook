@@ -1,6 +1,15 @@
 package gradebook.model;
 
-public class Section extends Grading{
+/**
+ *Section is collection of Students.
+ *
+ *This class contains a way to calculate average
+ *score and letter grade as well as getters and
+ *setters for the object of type Section.
+ *@author Susan Roberts
+ */
+
+public class Section extends Grading {
 
     private GradebookDB<Student> students;
 
@@ -27,8 +36,13 @@ public class Section extends Grading{
         return super.averageScore();
     }
 
-    public void setStudents(GradebookDB<Student> students) {
-        this.students = students;
+    public boolean setStudents(GradebookDB<Student> students) {
+        if (students.size() > 0) {
+            this.students = students;
+            return true;
+        } else {
+            return false;
+        }
     }
     public GradebookDB<Student> getStudents() {
         return this.students;
